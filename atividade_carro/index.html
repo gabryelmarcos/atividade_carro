@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprestimo</title>
+    <link rel="css/stylesheet" href="style.css" >
+</head>
+<body>
+    <main>
+        <div class="div-left">
+            
+            <div class="left-conteudo">
+                 <img src="assets/logo.svg" alt="logo Finance" class="left-logo">
+                
+                <h1>Simule o seu <span class="text-green">Financiamento</span></h1>
+
+                <p>Escolha as melhores condições para o financiamento do seu veículo</p>
+
+                <img src="assets/carro.svg" alt="carro" class="left-conteudo--img">
+            </div>
+        </div>
+
+        <div class="div-right">
+            <form class="right-card-simulacao">
+                <div class="right-logo">
+                    <img src="assets/iconEmoji.svg" alt="logo">
+                    <p>Preencha os campos  <br>e simule o seu financiamento</p>
+                </div>
+                <div class="right-input">
+                    <input type="number" name="valor" id="valor" placeholder="Valor para Simular">
+                    <select name="banco" id="banco">
+                        <option value="" disabled selected>Selecione um Banco</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                
+                    <select name="prazo" id="prazo">
+                        <option value="" disabled selected>Em quantos meses ?</option>
+                        <option value="">3 Meses</option>
+                        <option value="">12 Meses</option>
+                    </select>
+                    <button type="submit">Simular o Financiamento</button>
+                </div>
+             </form>
+                        
+    </main>
+</body>
+</html>
